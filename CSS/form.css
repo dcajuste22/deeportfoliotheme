@@ -1,0 +1,59 @@
+input[type=text] {
+  border: none;
+  border-bottom: 5px solid blue;
+  border-radius: 2px;
+  color: blue;
+}
+
+input [type=date] {
+  border: none;
+  border-bottom: 5px solid blue;
+  border-radius: 2px;
+
+}
+
+input[type=submit], input[type=reset] {
+  color: white;
+  padding: 10px;
+  background-color: blue;
+  border: 2px solid blue;
+
+}
+
+label {
+  color: blue;
+  padding: 10px;
+}
+
+form {
+  color: black;
+  padding: 10px;
+  border: none;
+  border: 5px solid blue;
+  border-radius: 2px;
+  background-color: lavender;
+}
+
+select {
+  border: none;
+  border: 3px solid blue;
+  border-radius: 2px;
+  width:200px;
+
+}
+
+option {
+  padding: 10px;
+}
+
+textarea {
+  border: none;
+  border: 3px solid blue;
+  border-radius: 2px;
+  width: 300px;
+
+}
+
+#form_title {
+  margin-bottom: 15px;
+}

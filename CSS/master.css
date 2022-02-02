@@ -1,0 +1,338 @@
+* {
+  margin: 0;
+}
+
+body {
+  width: 100%;
+}
+
+header {
+  background-color: pink;
+  color: green;
+  display: flex;
+  font-family: "impact", serif;
+  overflow: auto;
+  align-items: center;
+  padding: 20px;
+}
+
+.header_left {
+  width: 50%;
+}
+
+.header_right {
+  width: 50%;
+  text-align: right;
+  font-size: 20pt;
+}
+
+main {
+  clear:both;
+  width: 100%;
+  text-decoration: none;
+  background-image: linear-gradient(lavender, blue, pink, green);
+
+}
+.dee {
+  font-size: 40pt;
+  color: rgb(75, 123, 249);
+}
+.texter {
+  text-decoration: none;
+  font-size: 18pt;
+}
+.title {
+  font-size: 15pt;
+}
+.icon {
+  font-size: 40pt;
+  justify-content: space-between;
+  align-items: center;
+  padding: 70px;
+  color: rgb(27, 107, 227);
+}
+.picture {
+  width:130%;
+
+}
+.section_image{
+  width: 40%;
+  float: left;
+  background-position: center;
+  display: inline-block;
+}
+.section_text{
+  width: 40%;
+  font-size: 15pt;
+  float: right;
+  display: inline-block;
+
+}
+
+.blue {
+  padding: 55px;
+  background-color: rgb(214, 164, 232);
+  background-position: left;
+  border: 5px dashed green;
+  width:100%;
+  box-sizing: border-box;
+  display: block;
+}
+.red {
+  width: 40%;
+
+
+}
+.orange {
+  width: 40%;
+  font-size: 20pt;
+  float: right;
+
+}
+.yellow {
+  width:10px;
+}
+section {
+  overflow: auto;
+}
+footer {
+  background-color: pink;
+  color: blue;
+  overflow: auto;
+  padding: 30px;
+}
+
+.footer_left {
+  width:40%;
+  font-size: 15pt;
+  float: left;
+}
+
+.footer_right {
+  width:60%;
+  font-size: 13pt;
+  float:right;
+}
+
+.cake {
+  width:100%;
+  float: right;
+  height:400px;
+
+}
+
+.money {
+  background-image: url('../assets/Background/cupcakes.jpg');
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  padding: 40px 20px;
+
+}
+
+.money h1 {
+  color: blue;
+  font-size: 45pt;
+  padding: 30px;
+
+}
+
+.money ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+.money a {
+  text-decoration: none;
+}
+
+
+.money_button {
+  font-size: 20pt;
+  background-color: pink;
+  padding: 10px;
+  font-family: cursive;
+  color: green;
+  margin: 30px;
+  border: 2px solid black;
+
+}
+
+.logo {
+  width: 30%;
+
+}
+
+.value {
+  width: 70%;
+  background-color: lightblue;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto;
+}
+
+.value_image {
+  width:100%;
+  display: grid;
+}
+
+#creative {
+  grid-row: 5/7;
+}
+
+#icon {
+  grid-column: 1/4;
+}
+
+#girl {
+  grid-column: 1/3;
+}
+
+#donuts {
+  grid-column: 1/3;
+}
+
+#book {
+  grid-column: 1/3;
+  grid-row: 2/3;
+}
+
+#drinkc {
+
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: green;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+input[type=reset] {
+  background-color: green;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: green;
+}
+input[type=reset]:hover {
+  background-color: red;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+*
+{
+  box-sizing:border-box;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  position: relative;
+  margin: auto;
+  width: 80%;
+  background-image: linear-gradient(lavender, blue, pink, green);
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
